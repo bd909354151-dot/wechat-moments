@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOSITORIES)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://api.xposed.info/' }
+    }
+}
+rootProject.name = "wechat-moments"
+include ':app'
